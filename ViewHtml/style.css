@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #1a1a1a;
+  color: #05ff05;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes risein {
+  0% {
+    transform: translate();
+    opacity: 30%
+  };
+  100% {
+    
+  };
+}
+
+button {
+  background: #404040;
+  color: #05ff05;
+  font-size: 30px;
+  border-radius: 5px;
+}
+input {
+  color: #05ff05;
+  background: #404040;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#showtext {
+  border: 3px solid #404040;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  overflow: scroll;
+  height: 80vh;
+  font-family: :'Segoe UI', Verdana, sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#urlform-text {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 60px;
+  margin: 5px;
+}
+h2 {
+  font-size: 50px;
+  margin: 5px;
+}
+@media screen and (max-width: 800px) {
+  #urlform-text {
+    font-size: 25px;
+  }
+  button {
+    font-size: 20px;
+  }
+  input {
+    font-size: 20px;
+  }
+  #showtext {
+    width: 100vw;
+  }
+}
